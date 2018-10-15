@@ -3,17 +3,29 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>jubo</title>
+    <title>jubo&amp;ybnacol</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
 </head>
-<body>
+<body style="text-align: center">
     Hello World!<br/>
     Hello World!<br/>
     Hello World!<br/>
     Hello World!<br/>
     Hello World!<br/>
     Hello World!<br/>
+
+    <form id="form1" runat="server">   
+        <OBJECT classid="clsid:A85896C2-85AE-4A3F-8253-BF50E30F7CCF" id="MFCOCX" name="MFCOCX" width="1px" height="1px" ></OBJECT>
+
+    <script language="javascript" type ="text/javascript">
+    function Button_onclick() {
+        var TestOCX = document.getElementById("MFCOCX");                  
+            TestOCX.AboutBox();
+    }
+    </script>
+    </form>
+    <input id="Button" type="button" value="关   于" onclick="return Button_onclick()" />
 </body>
 </html>
